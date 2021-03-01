@@ -1,5 +1,5 @@
 USE `essentialmode`;
 
 INSERT INTO `items` (name, label) VALUES 
-	('licenseplate', 'License plate')
+	('licenseplate', 'Nummernschild')
 ;
