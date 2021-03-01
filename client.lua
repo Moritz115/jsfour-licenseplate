@@ -57,7 +57,7 @@ AddEventHandler('jsfour-licenseplate', function()
               SetVehicleNumberPlateText(vehicle, plate)
               plate = nil
             elseif cb == 'error' then
-              ESX.ShowNotification('You couldnt apply the license plate')
+              ESX.ShowNotification('Du konnten das Nummernschild nicht anbringen')
             end
           end, oldplate, plate)
         else
